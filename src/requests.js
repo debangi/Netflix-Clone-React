@@ -1,4 +1,4 @@
-import API_KEY from './tmdbApiKey';
+import API_KEY from '../tmdbApiKey';
 
 // const requests = {
 //   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
