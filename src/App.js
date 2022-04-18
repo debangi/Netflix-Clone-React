@@ -1,5 +1,5 @@
 import Banner from './Banner';
-import Navbar from './Navbar';
+import Nav from './Nav';
 import requests from './requests';
 import Row from './Row';
 
@@ -8,9 +8,8 @@ import './App.css';
 function App() {
   return (
     <div className='app'>
+      <Nav />
       <Banner />
-      <Navbar />
-      {/* Navbar */}
       <Row
         title='NETFLIX ORIGINALS'
         fetchUrl={requests.fetchNetflixOriginals}
